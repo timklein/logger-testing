@@ -1,0 +1,24 @@
+{
+  "name": "winston-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "morgan": "^1.8.1",
+    "rotating-file-stream": "^1.2.1",
+    "split": "^1.0.0",
+    "winston": "^2.3.1",
+    "winston-daily-rotate-file": "^1.4.6"
+  },
+  "jshintConfig": {
+    "node": true,
+    "esversion": 6
+  }
+}
